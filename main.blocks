@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="j,rW`LI]3:Ps$@twTP4o" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id=":tjV,ir]K0Gl)W2X]8+R"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="d*#~BxbqoyLUC*r`Jxzh"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="o5~q|;+nUlskD57+LHW_"><field name="NAME">TouchPin.P0</field></block></value><statement name="DO0"><block type="basic_show_icon" id="rWpF+fnNO4?H]M$;-U0X"><field name="i">IconNames.Yes</field></block></statement><statement name="ELSE"><block type="music_playable_play_default_bkg" id="tp~yd(aqvTTk?o4b/-#6"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="A?0$a=!43[=/lp|KqOQ}"><field name="melody">Melodies.Dadadadum</field></shadow></value><next><block type="device_show_leds" id="g[lU:lPs|qPR)oyN+C[z"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        . # # # .
+        `</field></block></next></block></statement></block></statement></block></xml>
